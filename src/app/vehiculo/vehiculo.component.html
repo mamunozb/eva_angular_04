@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div><img src="../assets/imageVehiculo.jpg"></div>
+  <div class="col-6">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Marca</th>
+          <th scope="col">Linea</th>
+          <th scope="col">Modelo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let c of vehiculos">
+          <td>
+            <dd>{{c.marca}}</dd>
+          </td>
+          <td>
+            <dd>{{c.linea}}</dd>
+          </td>
+          <td>
+            <dd>{{c.modelo}}</dd>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div *ngFor="let marca of vehiculosAgrupadosPorMarca">
+    Total {{ marca.marca }}:
+    {{ marca.vehiculos.length }}
+  </div>
+</div>

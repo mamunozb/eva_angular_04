@@ -1,0 +1,14 @@
+<testExecutions version="1">
+  <file path="src/app/vehiculo/vehiculo.service.spec.ts">
+    <testCase name="Service: Vehiculo should ..." duration="18"/>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should have as title 'eva_angular_04'" duration="26"/>
+    <testCase name="AppComponent should create the app" duration="4"/>
+  </file>
+  <file path="src/app/vehiculo/vehiculo.component.spec.ts">
+    <testCase name="VehiculoComponent should getVehiculos load data" duration="7"/>
+    <testCase name="VehiculoComponent should load data" duration="4"/>
+    <testCase name="VehiculoComponent should create" duration="3"/>
+  </file>
+</testExecutions>
